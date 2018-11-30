@@ -84,6 +84,11 @@ form>p span{
 	vertical-align: bottom;
 	margin-left: 4px;
 }
+form>p span:last-child{
+	color: green;
+	margin-left: 70px;
+	margin-top: 8px;
+}
 /*form表单end*/
 
 /*邦购网欢迎您部分--定位--*/
@@ -121,12 +126,30 @@ form>p span{
 	margin-bottom: 20px;
 }
 
-/*底部链接 +(表单验证span提示)*/
-#register-btotom{
+#register-bg #register-bottom{
 	width: 100%;
-	margin: 0 auto;
+	height: 64px;
 }
-#register-btotom li,h4{
+#register-bottom li{
+	margin-top: 24px;
+	height: 16px;
+	padding: 0 8px;
+	border-right: #8c338c solid 1px;
+}
+#register-bottom li:last-child{
+	border: none;
+}
+#register-bottom h4{
+	margin: 24px 0 0 313px;
+}
+
+#register-bottom li,h4{
 	float: left;
+}
+#register-bottom a{
+	color: #333333;
+}
+#register-bottom li:hover a{
+	border-bottom: 1px solid #000;
 }
 /*邦购网欢迎您部分--定位end--*/
