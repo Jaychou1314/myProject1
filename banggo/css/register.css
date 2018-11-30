@@ -1,0 +1,132 @@
+
+#register-bg{
+	width: 984px;
+	height: 645px;
+	margin: 0 auto;
+}
+#register-bg h1{
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 2px solid #696969;
+	margin-bottom: 10px;
+}
+#register-bg h1 img{
+	display: block;
+	margin-left: -35px;
+}
+#register-bg h1 b{
+	display: block;
+	width: 160px;
+	height: 28px;
+	line-height: 28px;
+	background: #696969;
+	text-align: center;
+	border-radius: 7px 7px 0 0;
+}
+#register-bg h1 b a{
+	color: #fff;
+}
+/*form表单*/
+#register-bg form{
+	width: 923px;
+	height: 325px;
+	border: 1px solid #cccccc;
+	padding: 0 30px;
+	position: relative;
+}
+form>h2{
+	width: 680px;
+	height: 50px;
+	border-bottom: 1px dashed #ccc;
+	line-height: 70px;
+	font-size: 16px;
+	padding-left: 24px;
+}
+form>p{
+	width: 630px;
+	height: 30px;
+	/*line-height: 64px;*/
+	padding: 20px 0;
+	padding-left: 60px;
+}
+form>p label{
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+}
+form input{
+	border: none;
+	width: 246px;
+	height: 30px;
+	border: 1px solid #ccc;
+	box-shadow: inset 0px 1px 2px #ccc;
+}
+
+form #submitBtn{
+	width: 150px;
+	height: 32px;
+	background: #ee1212;
+	border: #fe8383 solid 1px;
+	border-radius: 6px;
+	margin-left: 65px;
+	margin-top: -10px;
+	font-size: 18px;
+	color: #fff;
+}
+form>p span{
+	display: inline-block;
+	width: 300px;
+	height: 30px;
+	font-size: 12px;
+	color: #999999;
+	vertical-align: bottom;
+	margin-left: 4px;
+}
+/*form表单end*/
+
+/*邦购网欢迎您部分--定位--*/
+#welcome{
+	width: 218px;
+	height: 325px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 18px;
+	/*text-align: center;*/
+}
+#welcome h3{
+	/*width: 173px;*/
+	height: 47px;
+	font-size: 16px;
+	color: #d61c19;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: #e3e3e3  4px;
+	background: url(../img/line.png) no-repeat 30px 30px;
+	opacity: 0.9;
+	letter-spacing: 3px;
+}
+#welcome>p{
+	display: block;
+	width: 176px;
+	margin-left: 32px;
+	font-size: 14px;
+	line-height: 32px;
+	color: #333333;
+	opacity: 0.9;
+	letter-spacing: 2px;
+	text-indent: 28px;
+	margin-bottom: 20px;
+}
+
+/*底部链接 +(表单验证span提示)*/
+#register-btotom{
+	width: 100%;
+	margin: 0 auto;
+}
+#register-btotom li,h4{
+	float: left;
+}
+/*邦购网欢迎您部分--定位end--*/

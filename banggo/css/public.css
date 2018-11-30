@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font: 12px "微软雅黑";
+}
+h2,h3,h4,h5,h6{
+	font-weight: normal;	
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+img{
+	border: 0;
+	vertical-align: middle;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+#top1{
+	width: 100%;
+}
+#top1-bg{
+	width: 100%;
+	border-bottom: #999 solid 1px;
+}
+#top1-1{
+	width: 1200px;
+	height: 32px;
+	line-height: 32px;
+	color: #999;
+	margin: 0 auto;
+}
+#top1-1 .right>li {
+	float: left;
+	width: 64px;
+	text-align: center;
+	position: relative;
+}
+#top1-1 .right a {
+	color: #999;
+}
+/*登录隐藏部分*/
+#top1-1 .right .fontCo a{
+	color: black;
+}
+#top1-1 .right #top-login{
+	border: 1px solid #ccc;
+	border-top: none;
+	background: white;
+	position: absolute;
+	left: -1px;
+	visibility: hidden;
+	/*visibility: visible;*/
+}
+#top1-1 .right #top-login li{
+	white-space: nowrap;
+	text-align: left;
+	padding: 0 8px;
+}
+#top1-1 .right #top-hid-img img{
+	width: 150px;
+	position: absolute;
+	background: white;
+	left: 0;
+	top: 24px;
+	visibility: hidden;
+	/*visibility: visible;*/
+	padding: 12px;
+	border: 1px solid #ccc;
+}
+#top1-1 .right #top-hid-img:last-child img{
+	padding: 0;
+	left: -76px;
+	border: none;
+}
+/*登录隐藏部分end*/
+
+#logo{
+	width: 1200px;
+	height: 78px;
+	line-height: 78px;
+	margin: 0 auto;
+	clear: both;
+}
+#logo ul li{
+	float: left;
+}
+#logo #search{
+	font-size: 0;
+}
+#logo #search input:nth-child(1){
+	width: 298px;
+	height: 32px;
+	border:1px solid #d51819;
+	vertical-align: middle;
+}
+#logo #search input:nth-child(2){
+	width: 80px;
+	height: 34px;
+	background: #D51819;
+	border: none;
+	color: #fff;
+	vertical-align: middle;
+	
+}
+#logo ul{
+	text-align: center;
+	margin-left: 10px;
+}
+#logo ul a{
+	height: 12px;
+	padding: 0 10px;
+	border-right: 2px solid #e2dce2;
+}
+#logo p{
+	margin-right: 34px;
+}#logo .borderNo a{
+	border: none;
+}
+#logo p span{
+	color: #e03938;
+	padding: 0 2px;
+}
+/*首页--热消分类部分*/
+#topNav{
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+}
+#topNav .topNav-left>li{
+	float: left;
+	line-height: 56px;
+	padding: 0 12px;
+	position: relative;
+}
+.topNav-left li div{
+	position: absolute;
+	left: -12px;
+	white-space:nowarp;
+	display: inline-flex;
+	border-top: 1px solid #f0f0f0;
+	padding: 24px 0;
+	background: white;
+	visibility: hidden;
+	/*visibility: visible;*/
+}
+.topNav-left div ul{
+	width: 120px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	line-height: 40px;
+}
+.topNav-left div ul:last-child{
+	border: none;
+}
+.topNav-left div h2{
+	/*line-height: 60px;*/
+	/*margin: 20px 0;*/
+	margin-bottom: 16px;
+}
+.topNav-left div h2 a{
+	color: #D51819;
+}
+#topNav ol li{
+	float: left;
+	margin: 0 10px;
+}
+/*所有top部分end*/
+
+/*footer开始*/
+#footer{
+	width: 100%;
+	clear: both;
+}
+#footer ul>li img{
+	border: 1px solid #ccc;
+	border-right: none;
+}
+#footer #connect{
+	width: 1200px;
+	height: 242px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#footer #connect>li{
+	float: left;
+
+}
+#connect #online-con{
+	width: 358px;
+	height: 64px;
+	border: #ccc solid 1px;
+	border-top: none;
+	padding: 12px 0;
+	background: #fafafa;
+}
+#connect #online-con li{
+	float: left;
+	text-align: center;
+	padding:0 34px;
+	border-right: 1px solid #ccc;
+}
+#connect #online-con li:last-child{
+	border: none;
+}
+#connect #online-con img{
+	display: block;
+}
+#connect #online-con span{
+	display: block;
+	margin-top: 6px;
+	font-weight: bold;
+	color: #999999;
+}
+/*新手指南部分*/
+#bottom2-nav{
+	clear: both;
+	width: 100%;
+	height: 39px;
+	background: #f7f7f7;
+	border-top: 1px solid #dcdcdc;
+}
+#bottom2-nav #btm-bg{
+	width: 1200px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+#btm-bg>li{
+	float: left;
+	width: 200px;
+	font-weight: bold;
+	color: #231815;
+	font-size: 14px;
+	line-height: 39px;
+}
+#btm-bg .bottom-con{
+	margin: 14px 0;
+}
+#btm-bg .bottom-con li{
+	line-height: 28px;
+}
+#btm-bg ul a{
+	color: #231815;
+	font-size: 12px;
+	font-weight: normal;
+}
+#bottom2-nav b{
+	font-size: 14px;
+	color: #787878;
+	display: block;
+	width: 1200px;
+	padding-top: 24px;
+	text-align: center;
+}
+#bottom2-nav #btm-imgS{
+	display: block;
+	height: 55px;
+	text-align: center;
+	margin-top: 18px;
+}
+#bottom2-nav #btm-imgS img:first-child{
+	margin-right: 10px;
+}
+/*新手指南部分end*/
+
+
+
